@@ -52,6 +52,8 @@ body {
     
 }
 
+/*menu donde estan los productos*/
+
 .menu-desplegable {
     display: inline-block;
     position: relative;
