@@ -1,0 +1,80 @@
+*   {
+    margin: 0%;
+    padding: 0;
+}
+
+.titulo {
+
+    border: 2px solid #f58b99; /* Borde del rectángulo */
+    padding: 10px; /* Espacio interior del rectángulo */
+    text-align: center; /* Centra el contenido del rectángulo */
+    background-color: #f8697c;
+    font-style: italic;
+}
+
+h2 {
+    margin: 0; /* Elimina el margen predeterminado del título */
+    font-family: sans-serif;
+    color: azure;
+    box-shadow: 2px 2px 4px #3b3334;
+}
+
+.logo {
+    display: flex;
+    text-align: center; /* Centra horizontalmente */
+    height: 35vh; /* Ajusta la altura según la ventana gráfica */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+body {
+    background-color:rgb(241, 238, 220);
+    border: 5px dotted rgb(221, 11, 21);
+}
+
+.barradeaccesos {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    display: flex;
+    width: 100%;
+    background-color: azure;
+    padding: auto;
+  
+
+
+}
+
+.grid-container1 {
+    display: flex;
+    align-self:first baseline
+
+    
+}
+
+.menu-desplegable {
+    display: inline-block;
+    position: relative;
+  }
+  .menu-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 00px 10px 10px 00px rgba(0,0,0,0.4);
+  }
+  .menu-desplegable:hover .menu-content {
+    display: block;
+  }
+  .menu-content a {
+    display: block;
+    color: #000000;
+    padding: 5px
+    
+  }
+  .menu-content a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
+  }
+
+  

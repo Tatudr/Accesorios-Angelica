@@ -1,0 +1,45 @@
+header {
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+}
+
+nav  ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px
+}
+
+.contenido {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 150px;
+}
+
+/* configuraciones del diseño responsivo */
+
+@media (max-width: 600px)  {
+    header {
+        text-align: left;
+    }
+    
+    nav  ul {
+        text-align: center;
+    }
+    
+    nav li {
+        display: block;
+        margin-right: 10px
+    }
+    
+    .contenido {
+        padding: 10px;
+        font-size: 40px;
+    }
+}
